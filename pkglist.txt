@@ -36,3 +36,4 @@ xwallpaper
 yad
 zathura
 zsh
+keychain
