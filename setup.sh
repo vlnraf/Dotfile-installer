@@ -35,9 +35,11 @@ install_dots()
 
 # Key apps to install
 install_key_app(){
-    sudo pacman -S --needed < pkglist.txt
+    cd ~/Dotfile-installer
+    sudo pacman -Sy --needed < pkglist.txt
     
     yay -S --noconfirm --needed nerd-fonts-mononoki ttf-font-awesome ttf-font-awesome-4
+    cd ~
 }
 
 install_oh_my_zsh(){
@@ -78,7 +80,7 @@ choose_video_driver(){
 }
 
 
-if ["$(id -u)" = 0]; then
+if [ "$(id -u)" = 0 ]; then
     echo "##################################################################"
     echo "This script MUST NOT be run as root user since it makes changes"
     echo "to the \$HOME directory of the \$USER executing this script."
@@ -107,6 +109,7 @@ takecare() { \
 
 takecare || error "User choose to exit."
 
+clear
 
 set -e
 
