@@ -25,7 +25,6 @@ xf86-video-qxl
 xf86-video-intel
 xf86-video-amdgpu
 xf86-video-nouveau
-xmobarxorg-server
 xorg-xkill
 xorg-xmessage
 xorg-xprop
