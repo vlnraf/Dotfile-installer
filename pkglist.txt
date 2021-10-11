@@ -16,7 +16,7 @@ volumeicon
 adobe-source-code-pro-fonts
 adobe-source-sans-fonts
 bash
-dmenu
+dmenu-manjaro
 git
 lxsession
 mpv
