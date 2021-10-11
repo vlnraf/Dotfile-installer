@@ -12,7 +12,6 @@ ttf-hack
 ttf-ubuntu-font-family
 ttf-inconsolata
 ttf-indic-otf
-ttf-twemoji-color
 volumeicon
 adobe-source-code-pro-fonts
 adobe-source-sans-fonts
