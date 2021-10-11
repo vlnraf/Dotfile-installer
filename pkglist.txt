@@ -37,3 +37,4 @@ yad
 zathura
 zsh
 keychain
+zsh-autosuggestions
