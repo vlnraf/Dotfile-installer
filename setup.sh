@@ -35,7 +35,7 @@ install_dots()
 
 # Key apps to install
 install_key_app(){
-    cd ~/Dotfile-installer
+    cd ~/dotfile-installer
     sudo pacman -Sy --needed - < pkglist.txt
     
     yay -S --noconfirm --needed nerd-fonts-mononoki ttf-font-awesome ttf-font-awesome-4 ttf-twemoji-color
